@@ -319,6 +319,9 @@
         AwAF/wMAB/8B/gIAAX8F/wIAA/8CAAEBBf8DAB3/AwAd/wMAHf8DAGX/Cw==
 </value>
   </data>
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 270</value>
+  </data>
   <data name="open.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -396,8 +399,5 @@
   </data>
   <data name="properties.Text" xml:space="preserve">
     <value>Propiedades</value>
-  </data>
-  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 270</value>
   </data>
 </root>
