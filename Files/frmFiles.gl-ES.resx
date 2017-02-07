@@ -225,7 +225,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB6
-        FQAAAk1TRnQBSQFMAgEBBAEAAVwBAAFcAQABQAEAAUABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        FQAAAk1TRnQBSQFMAgEBBAEAAWQBAAFkAQABQAEAAUABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         BAABAQIAAYADAAEBAQABCAYAAYAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -320,7 +320,7 @@
 </value>
   </data>
   <data name="open.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="open.Text" xml:space="preserve">
     <value>Abrir</value>
@@ -332,28 +332,28 @@
     <value>&amp;Editar</value>
   </data>
   <data name="openWith.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="openWith.Text" xml:space="preserve">
     <value>Abrir Con</value>
   </data>
   <data name="pinToStartMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="pinToStartMenu.Text" xml:space="preserve">
     <value>Anclar a Menú inicio</value>
   </data>
   <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>181, 6</value>
   </data>
   <data name="sendTo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="sendTo.Text" xml:space="preserve">
     <value>Enviar a...</value>
   </data>
   <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>181, 6</value>
   </data>
   <data name="cut.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -368,7 +368,7 @@
     <value>&amp;Copiar</value>
   </data>
   <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>181, 6</value>
   </data>
   <data name="createShortcut.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -383,21 +383,21 @@
     <value>Eliminar</value>
   </data>
   <data name="rename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="rename.Text" xml:space="preserve">
     <value>Renombrar</value>
   </data>
   <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 6</value>
+    <value>181, 6</value>
   </data>
   <data name="properties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>184, 22</value>
   </data>
   <data name="properties.Text" xml:space="preserve">
     <value>Propiedades</value>
   </data>
   <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 292</value>
+    <value>185, 270</value>
   </data>
 </root>
