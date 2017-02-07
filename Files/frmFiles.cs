@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -19,13 +21,32 @@ namespace Files
 
         private void Menu_MouseHover(object sender, EventArgs e)
         {
-            labelHelp.Text = ((ToolStripMenuItem)sender).Text;   
+            labelHelp.Text = ((ToolStripMenuItem)sender).Text;
+            
         }
 
 
         private void languageMenuItem_Click(object sender, EventArgs e)
         {
 
+            switch (((ToolStripItem)sender).Name)
+            {
+                case ("españolToolStripMenuItem"):
+                    Thread.CurrentThread.CurrentCulture = new CultureInfo("gl-ES");
+                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("gl-ES");
+                    break;
+                case ("englishToolStripMenuItem"):
+                    Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+                    Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+
+                    break;
+            }
+            Controls.Clear();
+            InitializeComponent();
+
+
+
+            /*
             System.Resources.ResourceManager rm=null;
 
 
@@ -63,7 +84,7 @@ namespace Files
             {
                 item.Text = rm.GetString(item.Name);
             }
-
+            */
         }
 
         private void listView1_MouseClick(object sender, MouseEventArgs e)
