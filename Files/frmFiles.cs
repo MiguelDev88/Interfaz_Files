@@ -22,6 +22,7 @@ namespace Files
         private void Menu_MouseHover(object sender, EventArgs e)
         {
             labelHelp.Text = ((ToolStripMenuItem)sender).Text;
+
             
         }
 
@@ -40,6 +41,7 @@ namespace Files
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
                     break;
             }
+            
             Controls.Clear();
             InitializeComponent();
 

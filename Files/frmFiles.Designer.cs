@@ -105,13 +105,18 @@
             // lbAddress
             // 
             resources.ApplyResources(this.lbAddress, "lbAddress");
+            this.Ayuda.SetHelpNavigator(this.lbAddress, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("lbAddress.HelpNavigator"))));
+            this.Ayuda.SetHelpString(this.lbAddress, resources.GetString("lbAddress.HelpString"));
             this.lbAddress.Name = "lbAddress";
+            this.Ayuda.SetShowHelp(this.lbAddress, ((bool)(resources.GetObject("lbAddress.ShowHelp"))));
             // 
             // comboAddress
             // 
             resources.ApplyResources(this.comboAddress, "comboAddress");
             this.comboAddress.FormattingEnabled = true;
+            this.Ayuda.SetHelpString(this.comboAddress, resources.GetString("comboAddress.HelpString"));
             this.comboAddress.Name = "comboAddress";
+            this.Ayuda.SetShowHelp(this.comboAddress, ((bool)(resources.GetObject("comboAddress.ShowHelp"))));
             // 
             // menuPrincipal
             // 
@@ -421,6 +426,10 @@
             // 
             this.labelHelp.Name = "labelHelp";
             resources.ApplyResources(this.labelHelp, "labelHelp");
+            // 
+            // Ayuda
+            // 
+            resources.ApplyResources(this.Ayuda, "Ayuda");
             // 
             // frmFiles
             // 
